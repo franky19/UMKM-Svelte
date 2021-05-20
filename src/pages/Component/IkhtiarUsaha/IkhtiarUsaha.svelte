@@ -1,6 +1,5 @@
 <script lang="ts">
     import { Col, Container, Row } from 'sveltestrap';
-    import { Button } from 'sveltestrap';
 
     let src = 'https://bisnismuda.id/assets/content/20200809011323000000crowdfunding.png';
 	let name = 'crowdfundingLogo';
@@ -24,11 +23,12 @@
             gdgdjg
           </div>
   </div> -->
+  <Container sm>
     <Row style="margin-top: {'25px'};">
         <Col xs="6">
            <img {src} alt="{name}" style="height: {'100%'};width:{'100%'}" >
         </Col>
-        <Col xs="6" >
+        <Col xs="6" md>
             <h1>Crowdfunding</h1>
             <h4>website ini akan menghubungkan
                 pihak umkm dan pendana untuk 
@@ -39,4 +39,6 @@
                 </div>
         </Col>
     </Row>
+  </Container>
+   
   
