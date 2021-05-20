@@ -1,9 +1,5 @@
-<div class="container">
-  <h1 class="title">Routify + Vite Template</h1>
+<script>
+  import Homepage from '../pages/routes/Homepage/Homepage.svelte'
+</script>
 
-  <p class="description">
-    Visit <a class="link" href="https://github.com/lamualfa/routify-vite"
-      >Official Repository</a
-    > for further information.
-  </p>
-</div>
+<Homepage/>
