@@ -1,5 +1,12 @@
 <script>
   import Homepage from '../pages/routes/Homepage/Homepage.svelte'
+import Nav from './Component/Nav/Nav.svelte';
 </script>
 
-<Homepage/>
+<header>
+  <Nav/>
+</header>
+
+<main>
+  <Homepage/>
+</main>
